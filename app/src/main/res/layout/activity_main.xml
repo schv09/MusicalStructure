@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the main screen that should be displayed when the app launches. It would show the last playlists played and the last songs played with an option to play them directly from there. Both of them would have a button to view all respectively. There should also be buttons that link to the whole music library, the now playing screen and to the Google Play Store Music section to shop for more music. \n\nI would use the Android Media Player class to fetch and play the songs and write code to find and display the last played songs and playlists. Since the section for all songs and all playlists respectively would be fragments in the MusicLibraryActivity and we haven’t learned that yet, I will only link to this activity throught the “See All” buttons for songs and playlists. Overall I believe that this kind of app would require the use of ArraLists or Arrays." />
+
+        <Button
+            android:id="@+id/see_all_playlists_button"
+            style="@style/ButtonsStyle"
+            android:text="@string/see_all_playlists" />
+
+        <Button
+            android:id="@+id/see_all_songs_button"
+            style="@style/ButtonsStyle"
+            android:text="@string/see_all_songs" />
+
+        <Button
+            android:id="@+id/music_library_button"
+            style="@style/ButtonsStyle"
+            android:text="@string/music_library" />
+
+        <Button
+            android:id="@+id/now_playing_button"
+            style="@style/ButtonsStyle"
+            android:text="@string/now_playing" />
+
+        <Button
+            android:id="@+id/shop_button"
+            style="@style/ButtonsStyle"
+            android:text="@string/shop" />
+    </LinearLayout>
+</ScrollView>

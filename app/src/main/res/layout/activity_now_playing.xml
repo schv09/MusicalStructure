@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicplayer.NowPlayingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This activity shows the current song being played. This can be found with the MediaPlayer class and own code. The buttons to play/pause, play preivous and play next song can all be hooked up using methods form this class. This activity will only link to the MusicLibraryActivity. There could be a menu to take you to the specific artist, playlist and album respectively." />
+
+    <Button
+        android:id="@+id/music_library_button"
+        style="@style/ButtonsStyle"
+        android:text="@string/music_library"/>
+</LinearLayout>

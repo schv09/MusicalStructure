@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="see_all_songs">See All Songs</string>
+    <string name="see_all_playlists">See All Playlists</string>
+    <string name="music_library">Music Library</string>
+    <string name="shop">Shop</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="search">Search</string>
+</resources>

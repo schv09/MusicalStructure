@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.SearchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In this activity the user can type in some letters that will be matched to the content on his music library. This can be achieved through writing own code. Then he can use to play those songs, albums, playlists, etc. Fetching and playing music files can be achived through the MediaPlayer class. \n\nThere will be a button to link to the Google Play Store Music section in case the user sees he doesn't have this song and wants to buy it. This could also be a Fragment that you can access from all activities but I decided to put is a separate activity for now for the sake of the exercise."/>
+
+    <Button
+        android:id="@+id/shop_button"
+        style="@style/ButtonsStyle"
+        android:text="@string/shop"/>
+</LinearLayout>
